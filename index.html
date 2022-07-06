@@ -12,7 +12,7 @@ layout: default
     {% if post.img %}
        <img class="post-image" src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
     {% endif %}
-    <p>{{post.description | prepend: site.baseurl}}</p>
+    <p>{{post.description | prepend: site.baseurl}} <a class="more" href="{{post.url | }}">(Read more...)</a></p>
   </div>
 </article>
 {% endfor %}
