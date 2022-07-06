@@ -7,12 +7,12 @@ layout: default
   <div class="wrap-content">
     <header class="header-article">
       <h2 class="title-article"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-      <div class="post-date"><span>S.H Studio</span></div>
+      <div class="post-date"><span>{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
     </header>
     {% if post.img %}
        <img class="post-image" src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
     {% endif %}
-    <p>{{post.url | prepend: site.baseurl}}</p>
+    <p>{% include 2018-01-26-first-post.md %} <a class="more" href="{{}}">(Read more...)</a></p>
   </div>
 </article>
 {% endfor %}
