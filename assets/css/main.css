@@ -36,12 +36,13 @@ section {
 
 .main > li
 {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .main > .title
 {
-  font-size: 18px;
+  font-size: 25px;
+  margin: 8px;
 }
 /**
  * Correct the font size and margin on `h1` elements within `section` and
