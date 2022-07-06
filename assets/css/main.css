@@ -38,6 +38,11 @@ section {
 {
   font-size: 14px;
 }
+
+.main > .title
+{
+  font-size: 21px;
+}
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
