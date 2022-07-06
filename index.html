@@ -22,7 +22,7 @@ layout: default
 </style>
 
 <article class="main-article">
-  <div class="wrap-content">
+  <div class="wrap-content" id="home">
     <header class="header-article">
       <h2 class="title-article"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
       <div class="post-date" style="font-weight: bold;"><span>S.H STUDIO</span></div>
@@ -30,7 +30,7 @@ layout: default
     {% if post.img %}
        <img class="post-image" src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
     {% endif %}
-    <div class="main">
+    <div class="main" id="project_info">
       <ul>
       <p class="title">#Project Info</p>
       <ul> 
@@ -42,7 +42,7 @@ layout: default
       </ul>
     </div>
 
-    <div class="main">
+    <div class="main" id="team_info">
       <ul>
         <p class="title">#Team Info</p>
         <div class="form-item">
@@ -84,7 +84,7 @@ layout: default
       </ul>
       </div>
     
-      <div class="main">
+      <div class="main" id="details">
         <ul>
           <p class="title">#Details</p>
           <ul>
