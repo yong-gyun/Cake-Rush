@@ -2,7 +2,7 @@
 
   <div class="sidebar-container">
     <div class="sidebar-logo">
-      <a href="{{site.baseurl}}/" class="logo">Cake rush</a>
+      <a href="{{site.baseurl}}/" class="logo">{% if site.name %}{{site.name}}{% else %}Cake rush{% endif %}</a>
     </div>
 
     <menu class="sidebar-menu">
