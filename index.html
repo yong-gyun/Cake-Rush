@@ -12,7 +12,13 @@ layout: default
     {% if post.img %}
        <img class="post-image" src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
     {% endif %}
-    <p>{{post.description}} <a class="more" href="{{post.url | prepend: site.baseurl}}">(Read more...)</a></p>
+    <p>#Project Info</p>
+    <ul style="font-weight: bold;">
+      <li>프로젝트명 : Cake Rush</li>
+      <li>프로젝트 주제 : RTS (유닛, 건설 요소) + AOS (스킬, 플레이어 캐릭터, 몬스터, 포탑, 넥서스, 레벨링 시스템)</li>
+      <li>플랫폼 : PC</li>
+      <li>사용 기술 : Unity(2021.3.0f1), 서버(포톤)</li>
+    </ul>
   </div>
 </article>
 {% endfor %}
