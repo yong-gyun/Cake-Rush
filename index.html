@@ -12,6 +12,7 @@ layout: default
     {% if post.img %}
        <img class="post-image" src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
     {% endif %}
+    <p>{{post.description | prepend: site.baseurl}}</p>
   </div>
 </article>
 {% endfor %}
