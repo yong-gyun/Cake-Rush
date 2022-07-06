@@ -29,21 +29,6 @@ section {
   display: block;
 }
 
-.main
-{
-  font-weight: bold;
-}
-
-.main_li
-{
-  font-size: 18px;
-}
-
-.title
-{
-  font-size: 25px;
-  margin: 8px;
-}
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
