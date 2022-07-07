@@ -824,7 +824,7 @@ pre code {
 .sidebar-menu .menu-links:hover {
   -webkit-transform: translateY(3px);
           transform: translateY(3px);
-  background-color: #15F3A8;
+  background-color: #ffdead;
   color: #515151;
 }
 
