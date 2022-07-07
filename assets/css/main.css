@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 html {
   line-height: 1.15;
   /* 1 */
@@ -846,7 +847,7 @@ pre code {
 }
 
 .sidebar-logo .logo {
-  font-family: 'Finger Paint', cursive;
+  font-family: 'font-family: 'Nunito', sans-serif;', cursive;
   color: #15F3A8;
   text-transform: uppercase;
   text-decoration: none;
