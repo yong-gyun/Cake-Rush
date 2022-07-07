@@ -7,6 +7,7 @@
  *    IE on Windows Phone and in iOS.
  */
  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;900&family=Quicksand&display=swap');
 html {
   line-height: 1.15;
   /* 1 */
@@ -911,7 +912,7 @@ pre code {
 .main-article .post-date span, .main-article .page-date span, .page-article .post-date span, .page-article .page-date span, .post .post-date span, .post .page-date span {
   font-size: 0.8rem;
   text-transform: uppercase;
-  font-family: monospace;
+  font-family: 'font-family: 'Nunito', sans-serif;', cursive;
   color: rgb(65, 65, 65);
 }
 .main-article .more, .page-article .more, .post .more {
