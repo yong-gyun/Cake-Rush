@@ -893,6 +893,7 @@ pre code {
   margin-bottom: 1rem;
 }
 .main-article .wrap-content, .page-article .wrap-content, .post .wrap-content {
+  scroll-behavior: smooth;
   background-color: #fff;
   padding: 1rem;
 }
