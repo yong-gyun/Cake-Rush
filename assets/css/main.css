@@ -808,6 +808,7 @@ pre code {
 }
 .sidebar-menu .menu-items {
   scroll-behavior: smooth;
+  overflow-y: scroll;
   list-style: none;
 }
 .sidebar-menu .menu-links {
